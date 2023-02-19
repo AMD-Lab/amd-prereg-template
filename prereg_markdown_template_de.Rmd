@@ -1,0 +1,354 @@
+---
+title           : "Präregistrierungs-Vorlage der Abteilung für Analyse und Modellierung komplexer Daten^[Dieses Dokument basiert auf der Präregistrierungs-Vorlage für psychologische Forschung mit quantitativen Methoden (PRP-QUANT), Version 2 (verfügbar unter https://www.psycharchives.org/). Die Vorlage wurde von einer Task Force entwickelt, die aus Mitgliedern der American Psychological Association (APA), der British Psychological Society (BPS), der Deutschen Gesellschaft für Psychologie (DGPs), dem Center for Open Science (COS) und dem Leibniz-Institut für Psychologie (ZPID) besteht, und für Abschlussarbeiten der Abteilung für Analyse und Modellierung komplexer Daten an der Johannes Gutenberg-Universität Mainz angepasst.]"
+shorttitle      : "Meine Präregistrierung"
+date            : "`r Sys.setlocale('LC_TIME', 'German.UTF-8'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : Vorname Nachname des:der Student:in
+    affiliation : 1
+    
+  - name        : Vor- und Nachname des:der Betreuer:in
+    affiliation : 1
+    
+
+affiliation:
+  - id          : 1
+    institution : Johannes Gutenberg-Universität Mainz
+
+output: prereg::prereg_pdf
+---
+
+<!-- Unten finden Sie eine Implementierung der Präregistrierung  für quantitative Forschung in der Psychologie (https://bit.ly/32lZYtx) als R Markdown-Vorlage (im 'prereg'-Paket enthalten).
+Die Kommentare (wie dieser hier) zeigen Anweisungen zum Ausfüllen der Informationen über Ihre geplante Studie. Geben Sie Ihre Informationen ein, wo Sie aufgefordert werden (ersetzen Sie "Geben Sie hier Ihre Antwort ein" durch Ihre Antwort).
+Wenn Sie fertig sind, wandeln Sie Ihre R Markdown-Datei in ein PDF um. Eine Liste von Repositories, in denen Sie Ihre Präregistrierung hochladen können, finden Sie im 'prereg'-Paket-README.
+Nicht alle der folgenden Punkte sind für jede Studie relevant. -->
+
+
+\newpage
+# Titel
+
+## T1
+### Titel
+<!-- Der Titel sollte fokussiert und beschreibend sein und relevante Schlüsselbegriffe verwenden, um widerzuspiegeln, was in der Studie getan wird. Verwenden Sie Title Case (Hyperlink: https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case). -->
+
+Geben Sie hier Ihre Antwort ein.
+
+## T2
+### Geschätzte Projektdauer
+<!-- Geben Sie die beste Schätzung dafür an, wie lange das Projekt von der Präregistrierung bis zur Fertigstellung dauern wird. -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## T3
+### Stichworte
+<!-- Ergänzen Sie 3-5 Stichworte, die Ihr Thema, Ihre Methodik oder Ihre Stichprobe charakterisieren. -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## T4
+### Zugänglichkeit der Daten
+
+**Wir planen, die Daten zur Verfügung zu stellen:** <!-- Wählen Sie aus -->
+
+- ja
+- nein
+ 
+### Geplantes Datenzugänglichkeitsniveau:
+
+<!-- Wenn "ja", geben Sie bitte das geplante Datenzugänglichkeitsniveau an -->
+- Datenzugriff per Download; Nutzung der Daten für alle Zwecke (public use file)
+- Datenzugriff per Download; Nutzung der Daten auf wissenschaftliche Zwecke beschränkt (scientific use file)
+- Datenzugriff per Download; Die Nutzung der Daten muss auf individueller Fallbasis vereinbart und definiert werden.
+- Datenzugriff über sicheres Rechenzentrum (kein Download, Nutzung/Analyse nur in einem sicheren Rechenzentrum)
+- Daten auf Anfrage per E-Mail dverfügbar
+- Sonstiges <!-- (bitte angeben) -->
+ 
+
+## T5
+### Verfügbarkeit des Analysecodes
+
+Wir planen, den Code zur Verfügung zu stellen: <!-- Wählen Sie aus -->
+
+- ja
+- nein
+
+### Geplantes Code-Zugänglichkeitsniveau:
+<!-- Wenn "ja", geben Sie bitte das geplante Code-Zugänglichkeitsniveau an -->
+- Code-Zugriff per Download; Nutzung des Codes für alle Zwecke (public use file)
+- Code-Zugriff per Download; Nutzung des Codes auf wissenschaftliche Zwecke beschränkt (scientific use file)
+- Code-Zugriff per Download; Die Nutzung des Codes muss auf individueller Fallbasis vereinbart und definiert werden.
+- Code-Zugriff über sicheres Rechenzentrum (kein Download, Nutzung/Analyse nur in einem sicheren Rechenzentrum)
+- Code auf Anfrage per E-Mail verfügbar
+- Sonstiges <!-- (bitte angeben) -->
+
+
+\newpage
+# Abstract
+<!-- 200 Wörter -->
+
+## A1
+### Hintergrund
+<!-- Siehe Einleitung I1 -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## A2
+### Ziele und Forschungsfragen
+<!-- Siehe Einleitung I2 -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## A3
+### Stichprobe
+<!-- Siehe Methoden M4 -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## A4
+### Methoden
+<!-- Siehe Methoden M10-14 -->
+
+Geben Sie hier Ihre Antwort ein.
+
+		
+
+\newpage
+# Einleitung
+<!-- kein Wörterlimit -->	
+
+## I1
+### Theoretischer Hintergrund
+<!-- Geben Sie einen kurzen Überblick, der die Forschungshypothesen rechtfertigt. -->
+Geben Sie hier Ihre Antwort ein.
+
+## I2
+### Ziele und Forschungsfragen
+<!-- Skizzieren Sie Ihre Ziele und Forschungsfragen. -->
+Geben Sie hier Ihre Antwort ein.
+
+## I3
+### Hypothesen (H1, H2, ...)
+<!-- Beschreiben Sie Ihre Hypothesen. Wenn mehrere Hypothesen vorhanden sind, nummerieren Sie diese eindeutig (z. B. H1, H2a, H2b). -->
+Geben Sie hier Ihre Antwort ein.
+
+## I4
+### Explorative Forschungsfragen
+<!-- falls zutreffend; E1, E2, ....
+Wenn explorative Analysen geplant sind, beschreiben Sie diese hier. Wenn mehrere explorative Analysen vorliegen, nummerieren Sie sie eindeutig (E1, E2, ...). -->
+Geben Sie hier Ihre Antwort ein.
+
+
+\newpage
+# Methoden
+
+## M1
+### Zeitpunkt der Präregistrierung
+
+<!-- Wählen Sie aus: -->
+- Registrierung vor der Datenerhebung
+- Registrierung vor jeglicher Betrachtung der Daten
+- Registrierung vor dem Zugriff auf die Daten
+- Registrierung vor der Analyse der Daten
+- Sonstige <!-- bitte angeben; könnte beinhalten, wenn T1 Longitudinaldaten analysiert wurden, Daten aus T2 jedoch noch nicht analysiert wurden -->
+
+## M2
+### Vorschlag: Verwendung von vorhandenen Daten (Reanalyse oder Sekundäranalyse)
+<!-- Werden vorhandene Daten in der geplanten Studie verwendet? Wenn ja, geben Sie an, ob die Daten zuvor veröffentlicht wurden und geben Sie die Quelle der Daten an (z. B. DOI oder APA-Referenz der Originalveröffentlichung). Geben Sie Ihren Kenntnisstand der Daten an (z. B. deskriptive Statistiken aus früheren Veröffentlichungen), ob dies für die Hypothesen der vorliegenden Studie relevant ist, und wie sichergestellt wird, dass Sie keine Ergebnisse oder statistischen Muster in den Daten kennen, die für die gegenwärtigen Hypothesen relevant sind. -->
+Geben Sie hier Ihre Antwort ein.
+
+
+# Stichprobe und Datenerhebung
+
+## M3
+### Stichprobengröße, Power und Präzision
+<!-- Beschreiben Sie, wie Sie die geplante Stichprobengröße (z. B. anhand von Stichprobenumfangsplanungen und Power-Analysen) festgelegt haben. Hier können Sie direkt auch den Code und die Ergebnisse Ihrer Stichprobenumfangsplanung festhalten oder visualisieren. Für sequentielle Designs geben Sie Ihre "Stoppregel" an, z. B. die Punkte, an denen Sie Ihre Daten betrachten und auf irgendeine Weise analysieren möchten (z. B. t-Tests und Korrelationen, aber auch deskriptiv, z. B. mit Histogrammen). -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## M4
+### Versuchspersonenrekrutierung, Ausschluss und Vergütung
+<!-- Geben Sie an: (a) Methoden der Rekrutierung (z. B. Sona, Social Media, Aushänge, Flyer, Schneeball-Sampling); (b) Auswahl- und Ein- / Ausschlusskriterien (z. B. Alter, Sehschärfe, Sprachfähigkeit); (c) Details der verwendeten Schichtung (Stratifikation); (d) geplante Teilnehmermerkmale (Geschlecht, Rasse / Ethnizität, sexuelle Orientierung und Geschlechtsidentität, SES, Bildungsniveau, Alter, Behinderung oder Gesundheitszustand, geografischer Standort); (e) Vergütungsbetrag und -methode (z. B. dieselbe Zahlung für alle, Leistungsabhängigkeit, Lotterie). -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## M5
+### Was geschieht, wenn Versuchspersonen Ihre Teilnahme an der Studie abbrechen?
+<!-- Geben Sie an, wie Sie mit den Daten von Versuchspersonen umgehen, die ihre Teilnahme an der Studie abbrechen, und ob sie diese zum Erreichen der geplanten Stichprobengröße nacherheben werden.  -->
+
+Geben Sie hier Ihre Antwort ein.
+
+## M6
+### Verblindung
+<!-- Beschreiben Sie alle Maßnahmen, die Sie treffen, um die Verblindung sicherzustellen. -->
+
+
+Geben Sie hier Ihre Antwort ein.
+
+
+
+## M7
+### Datenaufbereitung und Screening
+<!-- Geben Sie alle Schritte im Zusammenhang mit der Kontrolle der Datenqualität an, z. B. Behandlung von Ausreißern, Identifizierung von fehlenden Daten, Überprüfung der Normalverteilung usw. -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## M8
+### Wie wird mit fehlenden Daten umgegangen?
+<!-- Beschreiben Sie, wie Sie in Ihren Analysen mit fehlenden Werten umgehen werden, wie z.B: Indicate any procedures that will be applied during the analysis to deal with missing data, such as  (a) Fallweiser/genereller Ausschluss der Versuchspersonen; (b) Durchschnittsbildung über Skalenitems bei fehlenden Einzelitems; (c)d) Imputationsverfahren (FIML vs. MI). -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## M9
+### Weitere Informationen (optional)
+<!-- Zum Beispiel Schulung von Bewertenden/Versuchspersonen oder etwas, das noch nicht beschrieben wurde. -->
+Geben Sie hier Ihre Antwort ein.
+
+
+# Bedingungen und Design
+
+## M10
+### Art der Studie und Studiendesign
+<!-- Geben Sie die Art der Studie an (z. B. experimentell, beobachtend, querschnitts- vs. längsschnittsorientiert, Einzelfall, klinische Studie) sowie das geplante Studiendesign (z. B. between-subjects, within-subjects, faktoriell, messwiederholt usw.), Anzahl der Faktoren und Faktorstufen usw. -->
+Geben Sie hier Ihre Antwort ein.
+
+
+## M11
+### Randomisierung von Versuchspersonen und/oder experimentellem Material
+<!-- Falls zutreffend, beschreiben Sie, wie Versuchspersonen den Bedingungen oder Behandlungen zugewiesen werden, wie Stimuli den Bedingungen zugewiesen werden und wie die Präsentation von Tests, Durchgängen usw. randomisiert wird. Geben Sie die Randomisierungstechnik an und ob Beschränkungen angewendet wurden (pseudo-randomisiert).  -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## M12
+### Gemessene Variablen, manipulierte Variablen, Kovariaten
+<!-- Dieser Abschnitt soll verwendet werden, um eindeutig zu klären, welche Variablen zur Operationalisierung der oben genannten Hypothesen (Punkt I3) verwendet werden. Bitte (a) listen Sie alle gemessenen Variablen auf und (b) benennen Sie die Funktion jeder Variablen  (d. h. unabhängige Variable, abhängige Variable, Kovariate, Mediator, Moderator). Es ist wichtig zu spezifizieren, wie jede Hypothese operationalisiert wird, d. h. welche Variablen zur Überprüfung der jeweiligen Hypothese verwendet werden und wie die Hypothese in Bezug auf diese Variablen operational definiert wird. Die Beschreibung hier sollte mit den unter AP6 (unten) spezifizierten statistischen Analyseplänen übereinstimmen. -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## M13
+### Studienmaterialien
+<!-- Beschreiben Sie bitte alle relevanten Studienmaterialien. Dies könnte zum Beispiel Stimulusmaterial für Experimente, Fragebögen für Korrelationsstudien, Trainingsprotokolle für Interventionsstudien usw. umfassen. -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## M14
+### Prozedur
+<!-- Bitte beschreiben Sie hier alle relevanten Informationen darüber, wie die Studie durchgeführt wird, z. B. die Anzahl und zeitliche Abfolge von Messzeitpunkten für longitudinale Forschung, die Anzahl von Blöcken oder Durchläufen pro Sitzung eines Experiments, die Gruppengröße bei Gruppenuntersuchungen, die Anzahl der Trainingssitzungen bei Interventionsstudien, die Fragebogenadministration bei Onlinestudien usw. -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+
+## M15
+### Andere Informationen (optional)
+
+Geben Sie hier Ihre Antwort ein.
+
+
+
+\newpage
+# Analyseplan
+<!-- HINWEIS: Erstellen Sie einen separaten Analyseplan pro Hypothese, wenn sich die Analysen für die verschiedenen Hypothesen unterscheiden. -->
+
+## AP1
+### Kriterien für den Ausschluss von Versuchspersonen nach der Datenerhebung (falls zutreffend)
+<!-- Beschreiben Sie alle Kriterien, die zum Ausschluss von Daten oder Versuchspersonen führen (z.B. Leistungskriterien, Nichtantworten bei physiologischen Messungen, unvollständige Daten, ...). Seien Sie so spezifisch wie möglich. -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## AP2
+### Kriterien für den Ausschluss von Daten auf Trial-/Itemlevel (falls zutreffend)
+<!-- Beschreiben Sie alle Kriterien, die zum Ausschluss von Trials oder Items führen ((z.B. statistische Ausreißer, reaktionszeitbasierte Kriterien). Seien Sie so spezifisch wie möglich.  -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## AP3
+### Datenaufbereitung
+<!-- Beschreiben Sie alle Datenmanipulationen, die zur Vorbereitung der Hauptanalysen durchgeführt werden, z.B. Berechnung von Variablen oder Skalen, Umkodierung, jegliche Datenverarbeitungsschritte für bildgebende oder physiologische Daten (oder beziehen Sie sich auf öffentlich zugängliche Standardverfahren, vgl. T12). -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## AP4
+### Reliabilitätsanalyse (falls zutreffend)
+<!-- Geben Sie an, welche Art von Reliabilität  geschätzt wird, ob es sich um interne Konsistenz (z.B. Cronbachs Alpha, Omega), Test-Retest-Korrelation oder eine andere Form handelt (z.B. eine konfirmatorische Faktorenanalyse). Legen Sie bei der Entwicklung von Tests und Fragebögen a priori Kriterien für das Entfernen von Items fest (z.B. anhand der Itemschwierigkeit, Trennschärfe oder Faktorladung). -->
+
+Geben Sie hier Ihre Antwort ein.
+
+## AP5
+### Deskriptive Statistiken
+<!-- Geben Sie an, welche deskriptiven Statistiken für welche Variablen berechnet werden.-->
+
+
+## AP6
+### Statistische Analysen (für jede Hypothese angeben, falls unterschiedlich)
+<!-- Geben Sie das statistische Modell an (z.B. t-Test, ANOVA, LMM), das zur Überprüfung jeder Ihrer Hypothesen verwendet wird. Geben Sie alle notwendigen Informationen zur Modellspezifikation an (z.B. Variablen, Interaktionen, geplante Kontraste) und Folgeanalysen. Beschreiben Sie Modellauswahlkriterien (z.B. Fit-Indizes), Korrekturen für multiples Testen sowie Tests auf statistische Verletzungen, wenn zutreffend, Beschreiben Sie, welches Effektstärkemaß Sie berechnen werden. -->
+
+Geben Sie hier Ihre Antwort ein.
+
+## AP7
+### Inferenzkriterien
+<!-- Geben Sie die Kriterien an, die für Inferenzen verwendet werden (z.B. p-Werte, Bayes-Faktoren, Effektstärken-Maße) und die Schwellenwerte zum Akzeptieren oder Ablehnen Ihrer Hypothesen. Definieren Sie gegebenenfalls eine kleinste interessierende Effektgröße. Wenn die Inferenzkriterien zwischen den Hypothesen unterschiedlich sind, geben Sie diese für jede Hypothese separat an.  -->
+
+Geben Sie hier Ihre Antwort ein.
+
+## AP8
+### Explorative Analysen (optional)
+<!-- Beschreiben Sie alle explorativen Analysen, die mit Ihren Daten durchgeführt werden sollen. Schließen Sie hier alle geplanten Analysen ein, die nicht im Sinne einer direkten Überprüfung einer der spezifizierten Hypothesen konfirmatorisch sind. -->
+
+Geben Sie hier Ihre Antwort ein.
+
+
+## AP9
+### Weitere Informationen (optional)
+
+Geben Sie hier Ihre Antwort ein.
+
+
+# Sonstiges
+<!-- Sonstiges Informationen, optional
+HINWEIS: If needed, multiple lines with other information can be included -->
+
+## O1
+### Weitere Informationen (optional)
+<!-- Falls es zusätzliche Informationen gibt, die Sie in Ihrer Vorregistrierung aufnehmen möchten, geben Sie diese bitte hier ein. Literaturangaben, Offenlegung von Arbeiten, die mit Ihren Daten arbeiten, wie z. B. Replikationen oder verwandte Arbeiten, oder anderer Kontext, der zukünftigen Lesern hilfreich sein wird, findet hier Platz. -->
+Geben Sie hier Ihre Antwort ein.
+
+
+
+<!-- Referenzen für dieses Template
+
+Aczel, B., Szaszi, B., Sarafoglou, A., … Wagenmakers, E.-J. (2020). A consensus-based transparency checklist. Nature Human Behaviour, 4(1), 4–6. https://doi.org/10.1038/s41562-019-0772-6	
+
+American Psychological Association. (2020). Publication manual of the American Psychological Association (7th ed.). https://doi.org/10.1037/0000165-000	
+
+Appelbaum, M., Cooper, H., Kline, R. B., Mayo-Wilson, E., Nezu, A. M., & Rao, S. M. (2018). Journal article reporting standards for quantitative research in psychology: The APA Publications and Communications Board task force report. American Psychologist, 73(1), 3–25. https://doi.org/10.1037/amp0000191	
+
+Bowman, S. D., DeHaven, A. C., Errington, T. M., Hardwicke, T. E., Mellor, D. T., Nosek, B. A., & Soderberg, C. K. (2016). OSF Prereg Template. Retrieved from osf.io/preprints/metaarxiv/epgjd	
+
+Simonsohn, U., Simmons, J., & Nelson, L. (2017). AsPredicted. Retrieved from https://aspredicted.org/messages/terms.php 1/15/2020	
+
+Van den Akker, O., Weston, S. J., Campbell, L., Chopik, W. J., Damian, R. I., Davis-Kean, P., Hall, A., Kosie, J., Kruse, E., Olsen, J., Stuart, R., Valentine, K., van 't Veer, A., & Bakker, M. (2019, November 20). Preregistration of secondary data analysis: A template and tutorial. https://doi.org/10.31234/osf.io/hvfmr
+-->
+
+\newpage
+# Referenzen
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent
