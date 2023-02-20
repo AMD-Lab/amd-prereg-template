@@ -18,7 +18,7 @@ affiliation:
 output: prereg::prereg_pdf
 ---
 
-<!-- Unten finden Sie eine Implementierung der Präregistrierung  für quantitative Forschung in der Psychologie (https://bit.ly/32lZYtx) als R Markdown-Vorlage (im 'prereg'-Paket enthalten).
+<!-- Unten finden Sie eine Implementierung der Präregistrierung für quantitative Forschung in der Psychologie (https://bit.ly/32lZYtx) als R Markdown-Vorlage (im 'prereg'-Paket enthalten).
 Die Kommentare (wie dieser hier) zeigen Anweisungen zum Ausfüllen der Informationen über Ihre geplante Studie. Geben Sie Ihre Informationen ein, wo Sie aufgefordert werden (ersetzen Sie "Geben Sie hier Ihre Antwort ein" durch Ihre Antwort).
 Wenn Sie fertig sind, wandeln Sie Ihre R Markdown-Datei in ein PDF um. Eine Liste von Repositories, in denen Sie Ihre Präregistrierung hochladen können, finden Sie im 'prereg'-Paket-README.
 Nicht alle der folgenden Punkte sind für jede Studie relevant. -->
@@ -60,9 +60,9 @@ Geben Sie hier Ihre Antwort ein.
 <!-- Wenn "ja", geben Sie bitte das geplante Datenzugänglichkeitsniveau an -->
 - Datenzugriff per Download; Nutzung der Daten für alle Zwecke (public use file)
 - Datenzugriff per Download; Nutzung der Daten auf wissenschaftliche Zwecke beschränkt (scientific use file)
-- Datenzugriff per Download; Die Nutzung der Daten muss auf individueller Fallbasis vereinbart und definiert werden.
+- Datenzugriff per Download; die Nutzung der Daten muss auf individueller Fallbasis vereinbart und definiert werden.
 - Datenzugriff über sicheres Rechenzentrum (kein Download, Nutzung/Analyse nur in einem sicheren Rechenzentrum)
-- Daten auf Anfrage per E-Mail dverfügbar
+- Daten auf Anfrage per E-Mail verfügbar
 - Sonstiges <!-- (bitte angeben) -->
  
 
@@ -78,7 +78,7 @@ Wir planen, den Code zur Verfügung zu stellen: <!-- Wählen Sie aus -->
 <!-- Wenn "ja", geben Sie bitte das geplante Code-Zugänglichkeitsniveau an -->
 - Code-Zugriff per Download; Nutzung des Codes für alle Zwecke (public use file)
 - Code-Zugriff per Download; Nutzung des Codes auf wissenschaftliche Zwecke beschränkt (scientific use file)
-- Code-Zugriff per Download; Die Nutzung des Codes muss auf individueller Fallbasis vereinbart und definiert werden.
+- Code-Zugriff per Download; die Nutzung des Codes muss auf individueller Fallbasis vereinbart und definiert werden.
 - Code-Zugriff über sicheres Rechenzentrum (kein Download, Nutzung/Analyse nur in einem sicheren Rechenzentrum)
 - Code auf Anfrage per E-Mail verfügbar
 - Sonstiges <!-- (bitte angeben) -->
